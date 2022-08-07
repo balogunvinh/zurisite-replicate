@@ -140,6 +140,7 @@ button{
     border: 1px solid var(--danger);
     margin-left: 2px;
     cursor: pointer;
+    transition: all 300ms ease;
 }
 .butn1 :hover a{
     color: var(--danger);
@@ -150,6 +151,7 @@ button{
     background: var(--danger);
     margin-left: 2px;
     cursor: pointer;
+    transition: all 300ms ease;
 }
 .butn2 :hover a{
     color: var(--light);
@@ -159,7 +161,7 @@ button{
 
 .container2{
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-color: var(--white);
     font-family: sans-serif;
 }
@@ -189,27 +191,31 @@ button{
 }
 
 .flex-content{
-  
-    margin-right: 15px;
-    margin-left: 15px;
+    padding: 2px;
+    justify-content: center;
     flex-wrap:nowrap;
     display: flex;
-    gap: 30px;
-    height: 400px;
+    gap: 35px;
+    height: 450px;
+    width: 100%;
+    line-height: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
 }
 
-#zt{
+.zt{
     margin-left: 2px;
+    margin-bottom: 20px;
 }
 
 .zuri-training{
-    background-color:rgb(245, 220, 228);
+    background-color:rgb(241, 232, 235);
     flex-wrap: wrap;
-    padding: 20px;
-    text-align: center;
+    padding: 35px;
+    /* text-align: center; */
 font-size: 14px;
 color: var(--gray);
-size: calc(100%/3);
+/* size: calc(100%/3); */
 }
 
 .zuri-training  a{
@@ -220,19 +226,134 @@ size: calc(100%/3);
 
 .training{
     margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 .zuri-intenship{
-    background-color:rgb(245, 220, 228);
+    background-color:rgb(241, 232, 235);
     flex-wrap: wrap;
-    padding: 20px;
-    text-align: center;
+    padding: 35px;
+    padding-left: 30px;
+    /* text-align: center; */
 font-size: 14px;
 color: var(--gray);
-size: calc(100%/3);
+/* size: calc(100%/3); */
 }
 
-.image1{
-    margin-top: 10px;
+.zuri-intenship  a{
+    text-decoration: none;
+    color: var(--danger);
     
 }
+
+
+.zuri-talent{
+    background-color:rgb(241, 232, 235);
+    flex-wrap: wrap;
+    padding: 35px;
+    padding-left: 20px;
+    /* text-align: center; */
+font-size: 14px;
+color: var(--gray);
+/* size: calc(100%/3); */
+}
+
+.zuri-talent  a{
+    text-decoration: none;
+    color: var(--danger);
+    float: left;
+    
+}
+
+.container3{
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+    height: 450px;
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    
+}
+
+.container3 a{
+    text-decoration: none;
+    color: var(--red);
+    
+    
+}
+
+.logo-foot{
+
+    padding: 20px;
+    width: 25%;
+    height: 300px;
+
+}
+.linkz{
+    
+    padding: 20px;
+    width: 25%;
+    height: 300px;
+    line-height: 30px;
+    
+}
+.linkz-p{
+    font-size: 20px;
+}
+
+.contact{
+    
+    padding: 20px;
+    width: 25%;
+    height: 300px;
+
+}
+
+.p-p{
+    line-height: 7px;
+    color: var(--gray-dark);
+}
+
+.follow-us{
+    padding: 20px;
+    width: 25%;
+    height: 300px;
+
+    
+
+}
+
+
+
+
+.social-media a img{
+    width: 18px;
+    padding: 2px;
+}
+
+
+.linkz a{
+    display: block;
+}
+
+hr{
+margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    color: #343a40;
+}
+.team{
+    text-decoration: none;
+    margin-top: 50;
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--gray);
+}
+.p, .linkz{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
